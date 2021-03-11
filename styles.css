@@ -1,0 +1,254 @@
+.navbar ul li
+{
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+
+.icons
+{
+    position: absolute;
+    right: 0%;
+}
+
+.icons li
+{
+    display: inline-block;
+    
+}
+
+.navbar ul li .icons i
+{
+    cursor: pointer;
+}
+
+.parallax
+{
+    
+    background-image: url(./img/pexels-oleg-magni-890036.jpg);
+    width: 100%;
+    padding: 0px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro p
+{
+   font-size: 80px;
+   font-weight: 600;
+   color: rgb(77, 74, 74);;
+}
+
+.intro span
+{
+    font-weight: 100;
+    color: rgb(77, 74, 74);
+}
+
+.quali
+    
+{
+    background-color: rgb(241, 241, 50);
+    padding: 2px;
+   
+}
+
+.about-head p
+{
+    font-weight: lighter;
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+.about-head span
+{
+    font-weight: normal;
+}
+
+.box
+{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: grey 0px 5px 12px -4px ;
+    transition-duration: 1s;
+}
+
+.box:hover
+{
+    box-shadow: grey 0px 8px 17px 2px;
+    transition-duration: 1s;
+}
+
+.orange-bg
+{
+    background-color: rgb(255, 218, 149);
+}
+
+.exp-skill
+{
+    background-color: rgb(238, 237, 237);
+}
+
+.title p
+{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.title span
+{
+    font-weight: normal;
+}
+
+.dev-detail
+{
+    border-left: 3px solid orange;
+    padding: 10px 0px 0px 15px;
+}
+
+.nav-tabs li button
+{
+    padding: 5px 100px 5px 100px;
+    border: none;
+    border-radius: 4px;
+}
+
+.nav-tabs{
+    height: 60px;
+    border-radius: 7px;
+}
+
+.nav-tabs li
+{
+    margin: 12px 10px 0px 75px;
+}
+
+.tab-content
+{
+    height: 200px;
+    border: 1px solid ridge;
+    padding: 10px 30px 10px 30px;
+}
+
+.parallex2
+{
+    background: url(./img/lap.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.parallex-containt
+{
+    text-align: center;
+    padding-top: 170px;
+    font-weight: lighter;
+    font-size: 33px;
+}
+
+.project
+{
+    font-size: 35px;
+}
+
+.project p
+{
+    font-weight: lighter;
+}
+.project span
+{
+    font-weight: 500;
+}
+
+.pro-dis
+{
+    padding: 15px 130px 30px 130px;
+    font-weight: normal;
+    color: rgb(136, 136, 136);
+}
+
+.pics:hover
+{
+    cursor:grab;
+    filter:;
+}
+
+.nav-item a
+{
+    color: floralwhite;
+}
+
+.nav{
+    background-color: rgb(64, 81, 175);
+}
+
+
+.tab-pane
+{
+    height: auto;
+    padding: 30px 15px 30px 15px;
+}
+
+.row-tab
+{
+    padding-bottom: 100px;
+}
+
+.name-div input[type=text]
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid ridge;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.email-div input[type=email]
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid ridge;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.sub-div input[type=text]
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid ridge;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.text-div input[type=text]
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid ridge;
+    height: 100px;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+@media screen and (max-width:767px)
+{
+    
+}
+
+
+
